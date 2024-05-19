@@ -19,8 +19,16 @@ let 숫자배열 : number[] = [1,2,3]
 let 문자배열 : string[] = ['a', 'b','c']
 let 객체 : {이름 : string, 나이: number} = {이름: '김유신', 나이: 33}
 
-let 오브젝트 = {
+let 오브젝트 :{name : string, age:number, adult:boolean}= {
     name : '이름',
     age : 14,
     adult: true
 }
+
+//title,btn
+let title =  document.getElementById('title');
+//버튼ㄴ 누르면 title 태그의 html내용을 '반갑습니다'로 바꿔주자
+//1. 버튼 아이디 찾아서 클릭이벤트 넣어준다
+document.getElementById('btn').addEventListener('click', ()=>{
+    
+})
